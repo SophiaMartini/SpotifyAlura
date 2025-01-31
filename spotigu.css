@@ -43,3 +43,48 @@ body {
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
 }
+.biblioteca {
+    position: fixed;
+    top: 170px;
+    left: 12px;
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 284px;
+}
+.conteudo_da_biblioteca {
+    display: flex;
+    justify-content: space-between;
+
+}
+.biblioteca .botao_biblioteca {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans" sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 28px 10px;
+}
+.biblioteca .conteudo_da_biblioteca .fa {
+    font-size: 20px;
+    font-weight: 300;
+    color: #b3b3b3;
+    margin-right: 10px;
+    padding-right: 8px;
+}
+.biblioteca .conteudo_da_biblioteca .fa-plus {
+    margin: 24px 10px;
+}
