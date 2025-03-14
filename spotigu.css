@@ -86,5 +86,130 @@ body {
     padding-right: 8px;
 }
 .biblioteca .conteudo_da_biblioteca .fa-plus {
-    margin: 24px 10px;
+    margin: 28px 10px;
+}
+
+.secaoplaylist {
+    background-color: #242424;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 18px;
+    font-family: "DM Sans", sans-serif;
+
+
+}
+
+.secaoplaylist .secaoplaylistconteudo {
+    display: flex;
+    flex-direction: column;
+
+}
+.secaoplaylist .secaoplaylistconteudo .text {
+    padding-bottom: 14px;
+    color: #ffff;
+}
+ .secaoplaylist .secaoplaylistconteudo .tittle {
+    font-weight: 700;
+ }
+ .secaoplaylist .secaoplaylistconteudo .subtittle {
+    font-weight: 5;
+    font-size: 12px;
+ }
+
+.secaoplaylistconteudo .secaoplaylistbotao {
+    background-color: #ffff;
+    color: black;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-family:"DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 113px;
+    margin-top: 12px;   
+}
+
+.cookies {
+    margin: 25px 20px;
+
+}
+ .cookies  a {
+    color: #b3b3b3;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: none;
+    
+}
+ .cookies a:hover {
+    text-decoration: wavy;
+}
+
+.idiomas .botaoidiomas {
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #ffff;
+    cursor: pointer;
+    align-items: center;
+    font-weight: bold;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+.premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, rgb(0, 8, 24), dodgerblue, darkgray);
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 40px;
+    
+}
+.premium .text {
+    flex-shrink: 0;
+    
+}
+.premium .premiumtittle {
+color: white;
+text-transform: up;
+font-weight: 700;
+font-size: 12px;
+margin-bottom: 10px;
+font-family: "DM Sans", sans-serif;
+}
+.premium .premiumsubtittle {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+.premium button {
+    background-color: white;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    font-family: "DM Sans", sans-serif;
+    flex-shrink: 0;
 }
